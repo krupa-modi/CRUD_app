@@ -1,13 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form__container {
+  min-height: 100vh;
+  background-color:rgba(63,134,188,0.8);
+}
+.form__container form {
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+  padding: 20px;
+  width: 30%;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.form__heading {
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+.form__button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.form__button:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.form__submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px 0px;
+}
+.form__submit-btn:hover {
+  opacity: 0.9;
+}
+.content {
+  min-height: 73vh !important;
+}
+.btngroup {
+  width: 50%;
+}
+.common-btn {
+  height: 45px;
+  width: 90px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin: 0px 8px;
+  background-color: black;
+  color: aqua;
+  font-size: 20px;
+}
+.loginContent {
+  width: 100%;
+  text-align: center;
+}
+.error-msg{
+  font-size:12px;
+  color:red;
+  width:100%;
+  font-weight: 600;
+}
+.success-msg{
+  width:100%;
+  background-color: #0f834d;
+  color:white;
+  font-weight: 700;
+  padding:10px 5px;
+}
+.common-class{
+ font-size:20px;
 }
